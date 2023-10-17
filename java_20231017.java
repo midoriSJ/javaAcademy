@@ -103,5 +103,7 @@ public class java_20231017 {
 	    System.out.println("당신의 주소는 " + address + "입니다.");
 	    System.out.println("당신의 나이는 " + age + "입니다.");
 	    System.out.println("당신의 체중은 " + weight + "입니다.");
+	    
+	    sc.close();
 	}
 }
