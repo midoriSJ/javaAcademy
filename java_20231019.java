@@ -109,6 +109,8 @@ public class java_20231019 {
 		System.out.println("###∫Œ¡§(NOT)###");
 		System.out.println(b1);
 		System.out.println(!b3);
+		System.out.println(b2);
+		System.out.println(!b4);
 	}
 
 }
