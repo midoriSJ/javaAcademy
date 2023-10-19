@@ -87,16 +87,19 @@ public class java_20231019 {
 		
 		//이항연산자_논리연산자(비트연산자)
 		//boolean : 1byte : 8bit
+		/*
 		boolean b1 = true;
 		boolean b2 = false;
 		boolean b3 = true;
 		boolean b4 = false;
+		*/
 		/*
 		System.out.println("###논리곱(AND)###");
 		System.out.println(b1 & b2);
 		System.out.println(b1 & b3);
 		System.out.println(b2 & b4);
 		*/
+		/*
 		System.out.println("###논리합(OR)###");
 		System.out.println(b1 | b2);
 		System.out.println(b2 | b3);
@@ -111,6 +114,12 @@ public class java_20231019 {
 		System.out.println(!b3);
 		System.out.println(b2);
 		System.out.println(!b4);
+		*/
+		
+		//삼항 연산자 : 피연산자가 3개인 조건 연산식이다.
+		
+		int num = (7 > 1)?1:0;
+		System.out.println(num);
 	}
 
 }
