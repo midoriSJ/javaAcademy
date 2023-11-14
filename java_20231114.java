@@ -28,7 +28,10 @@ public class java_20231114 {
 		b.sing();
 		*/
 		
-		
+		TJmic t = new TJmic();
+		t.connect();
+		t.music();
+		t.sing();
 		
 	}
 
