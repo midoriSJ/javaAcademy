@@ -45,9 +45,28 @@ public class A_ {
 		a.method1();
 		*/
 		
+		/*
 		PermitExample pe = new PermitExample();
 		pe.getInClass();
 		// pe.ic.print();
+		*/
+		
+		// 중첩 내부 클래스를 활용한 인터페이스 객체 주입 방법
+		
+		// Button 객체 생성
+		Button b = new Button();
+		class OKListener implements Button.ClickListener {
+			
+			@Override
+			public void onClick() {
+				System.out.println("OK 버튼을 클릭했습니다.");
+			}
+			
+		}
+		
+		OKListener ok = new OKListener();
+		ok.onClick();
+		
 	}
 
 }
