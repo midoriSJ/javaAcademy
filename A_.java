@@ -64,8 +64,8 @@ public class A_ {
 			
 		}
 		
-		OKListener ok = new OKListener();
-		ok.onClick();
+		b.setClickListener(new OKListener());	// OK 버튼을 클릭하는 객체를 주입해서 만든다.
+		b.click();	// 메서드를 호출해서 확인하자
 		
 	}
 
