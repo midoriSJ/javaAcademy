@@ -33,7 +33,15 @@ public class StringMethod {
 		String[] phone = subStr.split("-");
 		System.out.println(phone[0] + phone[1]);
 		
+		StringBuilder sbu = new StringBuilder("Hello");
+		sbu.append(" World");
+		System.out.println(sbu);
 		
+		sbu.delete(0, 6);
+		System.out.println(sbu);
+		
+		sbu.insert(0, "Hello ");
+		System.out.println(sbu);
 		
 	}
 
