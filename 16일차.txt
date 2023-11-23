@@ -73,6 +73,9 @@ String str4 = new String("abc");
 - append 함수를 이용해서 글자를 계속 늘려서 추가 저장할 수 있다.
 - StringBuffer 인스턴스를 각자 생성해도 같은 값일 경우 같은 주소가 대입된다.
 
+3-1) Stringbuffer / Stringbuilder 차이점
+- Stringbuffer는 스레드 환경일 경우 안전하도록 동기화가 되어있다.
+- 스레드 환경이 아닐 경우 StringBuilder 성능이 좋다.
 
 4. Math (수학 공식)
 
