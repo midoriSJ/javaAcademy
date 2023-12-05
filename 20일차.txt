@@ -1,0 +1,7 @@
+- maria DB - Server
+- MySQL - workbench - 계정 연결
+- eclipse - jdbc.jar 압축 해제 - db페이지 연결
+- DB conn -> 워크벤치(DB / table) -> select 정보 View
+
+Swing : 데이터를 입력받고 출력하는 사용자가 볼 수 있는 화면을 구성하는 것이다.
+GUI (Graphic User Interface) - JFrame
